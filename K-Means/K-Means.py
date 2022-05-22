@@ -62,8 +62,8 @@ if __name__ == '__main__':
     X, y = create_data()
     print(X);
     print(y)
-    # plt.ion()
+    plt.ion()
     centers, pred_y = kmeans_process(data=X, k=5)
-    #
-    # plt.ioff()
-    # plt.show()
+ 
+    plt.ioff()
+    plt.show()
